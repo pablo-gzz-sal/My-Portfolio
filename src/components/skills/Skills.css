@@ -1,0 +1,201 @@
+.skills {
+    width: 100%;
+    height: 65em;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillsLight {
+    background-color: #E9E9E9;
+    color: black;
+}
+
+.titleSkills {
+    font-size: 50px;
+}
+
+.columnsSkills {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+.column {
+    width: 90%;
+}
+
+.column1st{
+    border-right: 1px solid white;
+}
+
+.column1stWhite {
+    border-right: 1px solid black;
+}
+
+.listColumn {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconSkills {
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    
+}
+
+.iconLight {
+    color: black;
+}
+
+.textAndIcon {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+@keyframes skillsAni {
+    from {
+      margin-left: 100%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+.textSkills {
+    font-size: 30px;
+    animation: skillsAni 1.5s ease;
+}
+
+.iconJS {
+    margin-left: 43px;
+}
+
+.iconHTML {
+    margin-left: 18px;
+}
+
+.iconCSS {
+    margin-left: 5px;
+}
+
+.iconReact {
+    margin-left: 15px;
+}
+
+.iconHooks {
+    margin-left: 18px;
+}
+
+.iconFirebase {
+    margin-left: 33px;
+}
+
+.iconWP {
+    margin-left: 50px;
+}
+
+.iconWoo {
+    margin-left: 85px;
+}
+
+.iconGoogle {
+    margin-left: 55px;
+}
+
+.iconSEO {
+    margin-left: 5px;
+}
+
+.iconOxygen {
+    margin-left: 30px;
+}
+
+/*************Mobile*************/
+
+@media screen and (max-width: 750px) {
+
+    .columnsSkills {
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .column1st {
+        padding-right: 30px;
+    }
+
+    .column1stWhite {
+        padding-right: 30px;
+    }
+
+    .columnFreelance {
+        margin-right: 20px;
+    }
+
+    .textSkills {
+        font-size: 20px;
+    }
+
+    .iconJS {
+        margin-left: 20px;
+    }
+    
+    .iconHTML {
+        margin-left: 10px;
+    }
+    
+    .iconCSS {
+        margin-left: 5px;
+    }
+    
+    .iconReact {
+        margin-left: 7px;
+    }
+    
+    .iconHooks {
+        margin-left: 8px;
+    }
+    
+    .iconFirebase {
+        margin-left: 22px;
+    }
+    
+    .iconWP {
+        margin-left: 25px;
+    }
+    
+    .iconWoo {
+        margin-left: 45px;
+    }
+    
+    .iconGoogle {
+        margin-left: 30px;
+    }
+    
+    .iconSEO {
+        margin-left: 5px;
+    }
+    
+    .iconOxygen {
+        margin-left: 12px;
+    }
+
+    .titleSkills {
+        text-align: center;
+    }
+
+}
