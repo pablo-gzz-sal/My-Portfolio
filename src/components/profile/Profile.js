@@ -17,7 +17,7 @@ function Profile({darkMode, language}) {
         </p>
         <button className={darkMode ? "buttonAbout buttonAboutWhite" : "buttonAbout"} type="button">
           <a 
-            href="https://drive.google.com/file/d/1eZe57OVcyFXj2HZbgENzWio6LfOvX7Ef/view?usp=sharing"
+            href="https://drive.google.com/file/d/1WhIXY56f94D33DKJkMFOHUx5TYtnpf1I/view?usp=sharing"
             target="_blank"
           >
             {" "}
