@@ -13,7 +13,7 @@ function Profile({darkMode, language}) {
           {language ? "Desarrollador de software con experiencia en administración de negocios" : "Software developer with a background in business"}
         </h1>
         <p className="paragraphAbout">
-          {language ? "Valoro la estructura de contenido simple, los patrones de diseño limpios y las interacciones bien pensadas. Freelancer en este momento creando sitios web para versiones de escritorio, tabletas y dispositivos móviles con una excelente experiencia de UX y UI. Me considero una persona proactiva y orientada a resultados." : "I value simple content structure, clean design patterns, and thoughtful interactions. Freelancer at the moments creating websites for desktop, tablet and mobile versions with an excellent UX and UI experience. I consider myself a pro-active and results-oriented person."}
+          {language ? "Valoro la estructura de contenido simple, los patrones de diseño limpios y las interacciones bien pensadas. Freelancer en este momento creando sitios web para versiones de escritorio, tabletas y dispositivos móviles con una excelente experiencia de UX y UI. Me considero una persona pro-activa y orientada a resultados." : "I value simple content structure, clean design patterns, and thoughtful interactions. Freelancer at the moment creating websites for desktop, tablet and mobile versions with an excellent UX and UI experience. I consider myself a pro-active and results-oriented person."}
         </p>
         <button className={darkMode ? "buttonAbout buttonAboutWhite" : "buttonAbout"} type="button">
           <a 
