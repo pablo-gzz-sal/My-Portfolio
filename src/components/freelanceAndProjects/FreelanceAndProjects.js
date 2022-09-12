@@ -9,6 +9,8 @@ import daltonist from "../../images/daltonist.PNG";
 import fetivi from "../../images/fetivi.PNG";
 import diocletians from "../../images/diocletians.PNG";
 import homes4hope from "../../images/homes4hope.PNG";
+import expenses from "../../images/expenses.PNG";
+import meals from "../../images/meals.PNG";
 
 function FreelanceAndProjects({ darkMode, language }) {
   return (
@@ -200,6 +202,50 @@ function FreelanceAndProjects({ darkMode, language }) {
                   </li>
                   <li className="languageInd">
                     <img src={firebase} alt="firebase logo" />
+                  </li>
+                </lu>
+              </span>
+            </a>
+          </span>
+          <span className="individualProject">
+            <a href="https://expenses-project.vercel.app/" target="_blank">
+              <img src={expenses} alt="" className={darkMode ? "projectImg projectImgWhite" : "projectImg"} />
+              <h3 className="titleProjectInd">Add New Expense</h3>
+              <span className="languageProjects">
+                <lu className="listLan">
+                  <li className="languageInd">
+                    <i class="fab fa-html5 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-css3 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-js fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-react fa-3x"></i>
+                  </li>
+                </lu>
+              </span>
+            </a>
+          </span>
+          <span className="individualProject">
+            <a href="https://food-order-app-opal.vercel.app/" target="_blank">
+              <img src={meals} alt="" className={darkMode ? "projectImg projectImgWhite" : "projectImg"} />
+              <h3 className="titleProjectInd">Order App</h3>
+              <span className="languageProjects">
+                <lu className="listLan">
+                  <li className="languageInd">
+                    <i class="fab fa-html5 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-css3 fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-js fa-3x"></i>
+                  </li>
+                  <li className="languageInd">
+                    <i class="fab fa-react fa-3x"></i>
                   </li>
                 </lu>
               </span>

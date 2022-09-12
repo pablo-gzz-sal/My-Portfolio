@@ -16,7 +16,7 @@
 }
 
 .projectsSection {
-  height: 65em;
+  height: 82em;
   width: 100%;
 }
 
@@ -31,7 +31,7 @@
   font-size: 50px;
   margin-left: 135px;
   margin-bottom: 100px;
-  margin-top: -50px;
+  margin-top: -300px;
 }
 
 .individualProject {
@@ -101,7 +101,7 @@
   }
 
   .projectsSection {
-    height: 150em;
+    height: 180em;
   }
 
   .individualProject {
@@ -112,7 +112,7 @@
   .titleProjects {
     margin-left: 0px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: -370px;
   }
 
   .titleFreelance {
